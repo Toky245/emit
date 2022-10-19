@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(lightblue , grey , black);
+}
+.corps h1
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+.corps #left
+{
+    float: left;
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.corps #right
+{
+    float: right;
+    height: 500px;
+    width: 930px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.corps #right h2
+{
+    text-align: center;
+}
+.corps #right p
+{
+    text-align: center;
+    line-height: 2;
+}
+.corps #right ul
+{
+    margin-top: 90px;
+}
+.corps #right ul li
+{
+    display: inline-block;
+}
+.corps #right ul li img
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+.corps #right ul li img:hover
+{
+    transition: 0.5;
+    transform: scale(1.1);
+}
+.list
+{
+    margin-left: 320px;
+    margin-top: 35px;
+}
+/*corps1*/
+
+.corps1 #left
+{
+    float: left;
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+.corps1 #right
+{
+    float: right;
+    height: 500px;
+    width: 930px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+.corps1 #right h2
+{
+    text-align: center;
+}
+.corps1 #right p
+{
+    text-align: center;
+    line-height: 2;
+}
+.corps1 #right ul
+{
+    margin-top: 90px;
+}
+.corps1 #right ul li
+{
+    display: inline-block;
+}
+.corps1 #right ul li img
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+.corps1 #right ul li img:hover
+{
+    transition: 0.5;
+    transform: scale(1.1);
+}
+.list
+{
+    margin-left: 320px;
+    margin-top: 35px;
+}
+
+/*footer*/
+.footer
+{
+    height: 170px;
+    background-color: black;
+    clear: both;
+    width: 100%;
+}
+.footer h2
+{
+    text-align: center;
+    color: #777;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 45px;
+}
+.footer p
+{
+    color: #777;
+    text-align: center;
+}

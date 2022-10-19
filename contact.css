@@ -1,0 +1,18 @@
+body
+{
+    box-sizing: border-box;
+    background-color: rgba(135, 206, 250, 0.309);
+}
+
+
+.useerimage img
+{
+   margin-left: 500px;
+    margin-top: 50px;
+}
+.useerimage  p
+{
+   margin-left: 690px;
+    margin-top: -50px;
+    font-size: 20px;
+}
